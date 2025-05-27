@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SwipeCards</title>
+    <link rel="stylesheet" href="./assets/app.css" />
+  </head>
+  <main>
+    <section>
+      <header>
+        <img src="./assets/imgs/logo.png" id="logo" alt="logo" />
+      </header>
+      <div class="cards">
+        <article>
+          <img src="./assets/imgs/apollo.webp" alt="apollo" />
+          <h2>
+            Apollo
+            <span>God of art</span>
+          </h2>
+          <div class="left">LEFT</div>
+          <div class="right">RIGHT</div>
+        </article>
+        <article>
+          <img src="./assets/imgs/demeter.webp" alt="demeter" />
+          <h2>
+            Demeter
+            <span>Goddess of agriculture</span>
+          </h2>
+          <div class="left">LEFT</div>
+          <div class="right">RIGHT</div>
+        </article>
+        <article>
+          <img src="./assets/imgs/hera.jpg" alt="hera" />
+          <h2>
+            Hera
+            <span>Goddess of maternity</span>
+          </h2>
+          <div class="left">LEFT</div>
+          <div class="right">RIGHT</div>
+        </article>
+        <article>
+          <img src="./assets/imgs/poseidon.avif" alt="poseidon" />
+          <h2>
+            Poseidon
+            <span>God of sea</span>
+          </h2>
+          <div class="left">LEFT</div>
+          <div class="right">RIGHT</div>
+        </article>
+      </div>
+      <footer>
+        <button class="smallbtn back" aria-label="back"></button>
+        <button class="bigbtn greek" aria-label="greek"></button>
+        <button class="bigbtn reset" aria-label="reset"></button>
+        <button class="bigbtn roman" aria-label="roman"></button>
+        <button class="smallbtn next" aria-label="next"></button>
+        <!--los botoncitos aqui  funcionan como un sprites, es una buena tecnica para no descargar demasiados SVGs en proyectos mas grandes -->
+      </footer>
+    </section>
+  </main>
+ <script src="./assets/script.js"></script>
+</html>
