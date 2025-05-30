@@ -192,3 +192,25 @@ footer>button:hover {
 .next{
     background-position: -152px -5px;
 }
+
+@media (max-width: 900px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+    main {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 98vw;
+        height: 98vh;
+        max-width: 420px;
+        max-height: 90vh;
+        background-size: contain;
+        z-index: 100;
+    }
+}
